@@ -34,7 +34,7 @@ application. Let's first create a Capybara spec to ensure that going to
 `posts/new` takes us to our form. If you think back to the
 [Rails URL Helpers lesson][helpers], we know that we don't need to hard-code the
 route into our tests any longer. Let's use the standard RESTful convention of
-`new_post_path` for the route helper name:
+`new_paost_path` for the route helper name:
 
 ```ruby
 # spec/features/post_spec.rb
